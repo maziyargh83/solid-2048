@@ -20,9 +20,10 @@ export const Tile = (props: Block) => {
         opacity: props.visible ? 1 : 0,
         ...directionalPosition(`${top()}px`),
       }}
-      class="transition-[left] duration-75 rounded flex items-center justify-center font-bold text-base"
+      class="duration-75 rounded flex items-center justify-center font-bold text-base"
       classList={{
         absolute: !props.isListPreview,
+        "transition-[left]": !props.isPreview,
       }}
       {...setAttrBoard(props.row)}
     >
