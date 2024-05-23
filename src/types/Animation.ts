@@ -6,4 +6,5 @@ export enum Animation {
   MergeBoth = "MergeBoth",
   MergeBottom = "MergeBottom",
   Preview = "Preview",
+  Stale = "Stale"
 }

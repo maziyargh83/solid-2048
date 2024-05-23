@@ -515,7 +515,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@motionone/dom@npm:^10.16.4":
+"@motionone/dom@npm:^10.16.4, @motionone/dom@npm:^10.17.0":
   version: 10.17.0
   resolution: "@motionone/dom@npm:10.17.0"
   dependencies:
@@ -2091,6 +2091,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"motion@npm:^10.17.0":
+  version: 10.17.0
+  resolution: "motion@npm:10.17.0"
+  dependencies:
+    "@motionone/animation": "npm:^10.17.0"
+    "@motionone/dom": "npm:^10.17.0"
+    "@motionone/types": "npm:^10.17.0"
+    "@motionone/utils": "npm:^10.17.0"
+  checksum: f10658329d5b237765b0db70a2b5fad86a9394f93ab7509a1c2ab4f144be8235262e443a4fec2bfe7a958c8219884710bcab03ced93947868c8f8b15753a78fa
+  languageName: node
+  linkType: hard
+
 "ms@npm:2.1.2":
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
@@ -2601,6 +2613,7 @@ __metadata:
   dependencies:
     "@solidjs/router": "npm:^0.13.3"
     autoprefixer: "npm:^10.4.19"
+    motion: "npm:^10.17.0"
     nanoid: "npm:^5.0.7"
     postcss: "npm:^8.4.38"
     solid-devtools: "npm:^0.30.1"
@@ -2879,7 +2892,7 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>":
   version: 5.4.5
-  resolution: "typescript@patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=e012d7"
+  resolution: "typescript@patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=29ae49"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
